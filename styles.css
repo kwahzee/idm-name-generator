@@ -50,7 +50,7 @@ body {
     display: flex;
     flex-direction: row;
     border-style:double;
-    cursor: url('images/afx.png'), auto;
+    cursor: url('cursor.png'), auto;
 }
 
 .title {

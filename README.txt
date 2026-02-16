@@ -1,1 +1,1 @@
-Procedural IDM track title generator combining syllable banks, numerical sequences, and symbolic characters. Adjustable parameters for syllable count and chaos density.
+Procedural IDM track title generator combining syllable banks, numerical sequences, and symbolic characters. Adjustable parameters for length, chaos, amount of names generated, and a custom input.

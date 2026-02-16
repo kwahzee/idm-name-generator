@@ -4,8 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>idm name generator</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="main.js"></script>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="options">
+        <div class = "header">
+            <img class="logo" src="images/image.png" alt="cat">
+            <div class="title">IDM <br> Name <br> Generator</div>
+        </div>
+        <div class="controls">
+            <label for="length">Length:</label>
+            <input type="range" id="length" min="1" max="6" value="1">
+            
+            <label for="chaos">Chaos:</label>
+            <input type="range" id="chaos" min="1" max="3" value="1">
+            
+            <label for="amount">Amount:</label>
+            <input type="range" id="amount" min="1" max="50" value="1">
+            
+            <label for="customInput">Custom Input:</label>
+            <input type="text" id="customInput">
+
+            <button onclick="generate()">Generate</button>
+        </div>
+        
+    </div>
+    <div class="display"></div>
 </body>
 </html>
